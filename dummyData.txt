@@ -1,0 +1,84 @@
+{
+    "title": "this is most loved product of our company",
+    "desc": "this is just minor description",
+    "price": {
+        "mrp": 1000,
+        "disc": 30,
+        "final": 700
+    },
+    "size": {
+        "size": [
+            4,
+            5,
+            6,
+            8,
+            9
+        ],
+        "colors": {
+            "color": [
+                [
+                    "red",
+                    "blue",
+                    "green"
+                ],
+                [
+                    "red",
+                    "blue",
+                    "green"
+                ],
+                [
+                    "red",
+                    "blue",
+                    "green"
+                ],
+                [
+                    "red",
+                    "blue",
+                    "green"
+                ],
+                [
+                    "red",
+                    "blue",
+                    "green"
+                ]
+            ],
+            "available": [
+                [
+                    10,
+                    12,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    10,
+                    12,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    10
+                ],
+                [
+                    1,
+                    1,
+                    1
+                ]
+            ]
+        }
+    },
+    "ratings": {
+        "rate": 2.1,
+        "count": 121.2
+    },
+    "images": [
+        "https://i.pinimg.com/originals/34/86/54/348654cc9b185bcccbeea80d2fae2bf8.png",
+        "https://www.pngall.com/wp-content/uploads/2/Black-Sneakers.png",
+        "https://www.pngitem.com/pimgs/m/357-3579551_running-shoes-png-image-with-transparent-background-black.png",
+        "https://freepngimg.com/thumb/shoes/27428-5-nike-shoes-transparent-background.png"
+    ]
+}

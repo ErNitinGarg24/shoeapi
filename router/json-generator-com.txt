@@ -1,0 +1,42 @@
+[
+  '{{repeat(35)}}',
+  {
+    title: '{{firstName()}} {{surname()}} {{company()}} {{index()}}',
+    desc: '{{lorem(1, "paragraphs")}} {{guid()}}',
+    price: {
+        mrp: '{{integer(100, 100000)}}',
+        disc: '{{integer(10, 85)}}',
+        final: '{{integer(100, 100000)}}'
+	},
+    size: {
+      size: [
+      '{{repeat(7)}}',
+      '{{integer(3, 12)}}'
+      ],
+      colors: {
+        color:[
+        '{{repeat(7)}}',
+          [
+            '{{repeat(3)}}',
+			'{{random("blue", "brown", "green", "red", "yellow", "white", "black", "purple")}}'
+          ]
+        ],
+        available:[
+        '{{repeat(7)}}',
+          [
+			'{{repeat(3)}}',
+			'{{integer(0, 1000)}}'
+          ]
+        ]
+      }
+    },
+    ratings:{
+		rate: '{{floating(1, 5, 1, "1,1.0")}}',
+		count: '{{integer(100, 100000)}}',
+    },
+    images: [
+			'{{repeat(7)}}',
+			'{{random("https://m.media-amazon.com/images/I/61pYhDY8fxL._UY695_.jpg", "https://m.media-amazon.com/images/I/61xDHnTt7YL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61LctS6qp7L._SY695._SX._UX._SY._UY_.jpg","https://m.media-amazon.com/images/I/61Svoz92cmL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61HmnhAiowL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61NRSDC4B8L._SY695._SX._UX._SY._UY_.jpg", "m.media-amazon.com/images/I/61Iy-WrxpQL._SY695._SX._UX._SY._UY_.jpg","https://m.media-amazon.com/images/I/61dAa43lImL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61tnh+UkmpL._UY695_.jpg", "https://m.media-amazon.com/images/I/61hNqwrlpKL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61xxUcyGNLL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61Oz3BTADJL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61hMQOHmEIL._UY695_.jpg", "https://m.media-amazon.com/images/I/61iHU-hBWfL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/615HLJ97MKL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61kMvdVihfL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61OB5IGlFwL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61iuE9gr50L._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61LywRgcBWL._SY695._SX._UX._SY._UY_.jpg", "https://m.media-amazon.com/images/I/61KlQqPDZSL._SY695._SX._UX._SY._UY_.jpg")}}' 	
+    ]
+  }
+]
